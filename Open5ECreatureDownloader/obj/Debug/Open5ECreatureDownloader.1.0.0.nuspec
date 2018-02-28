@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Open5ECreatureDownloader</id>
+    <version>1.0.0</version>
+    <authors>Open5ECreatureDownloader</authors>
+    <owners>Open5ECreatureDownloader</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="HtmlAgilityPack" version="1.6.17" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.App" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\nadeauw\Documents\GitHub\5eCreatureDownloader\Open5ECreatureDownloader\bin\Debug\netcoreapp2.0\Open5ECreatureDownloader.runtimeconfig.json" target="lib\netcoreapp2.0\Open5ECreatureDownloader.runtimeconfig.json" />
+    <file src="C:\Users\nadeauw\Documents\GitHub\5eCreatureDownloader\Open5ECreatureDownloader\bin\Debug\netcoreapp2.0\Open5ECreatureDownloader.dll" target="lib\netcoreapp2.0\Open5ECreatureDownloader.dll" />
+  </files>
+</package>
